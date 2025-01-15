@@ -1,0 +1,2 @@
+const e=document.querySelector(".page__body"),o=document.querySelector(".top-bar__icon--menu"),c=document.querySelector(".top-bar__icon--close");o.addEventListener("click",()=>{e.classList.add("no-scroll")}),c.addEventListener("click",()=>{e.classList.remove("no-scroll")});const t=document.querySelectorAll(".product-card");window.addEventListener("scroll",()=>{let e=window.scrollY+window.innerHeight;t.forEach(o=>{e>o.offsetTop&&o.classList.add("product-card--show")})});
+//# sourceMappingURL=index.ad7123d8.js.map
